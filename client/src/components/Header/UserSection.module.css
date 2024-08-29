@@ -1,0 +1,17 @@
+.desc {
+  margin: 20px 0px;
+}
+
+.btn {
+  background-color: #0071c2;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #005a9e; /* Thay đổi màu nền khi hover */
+  color: #e0e0e0; /* Thay đổi màu chữ khi hover */
+}

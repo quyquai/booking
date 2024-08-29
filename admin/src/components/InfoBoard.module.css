@@ -1,0 +1,55 @@
+.info-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.info-item {
+  border: 1px solid #f1f3f5;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.info-title {
+  text-transform: uppercase;
+  color: #868e96;
+  padding: 1rem;
+}
+
+.info-value {
+  font-size: 28px;
+  padding-left: 1rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.icons {
+  font-size: 22px;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.icon-user {
+  background-color: #ffcccc;
+  color: #e03131;
+}
+
+.icon-order {
+  background-color: #f8edd2;
+  color: #fab005;
+}
+
+.icon-paid {
+  background-color: #cce6cc;
+  color: #2f9e44;
+}
+
+.icon-balance {
+  background-color: #e6cce6;
+  color: #9c36b5;
+}

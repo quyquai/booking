@@ -1,0 +1,90 @@
+.room-container {
+  padding: 1rem;
+}
+
+.room-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-new {
+  background-color: #fff;
+  color: #66a80f;
+  border: 1px solid #66a80f;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.add-new:hover {
+  background-color: #66a80f;
+  color: #fff;
+}
+
+.room-table {
+  border: 1px solid #ced4da;
+  border-bottom: none;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.room-table table {
+  width: 100%;
+  text-align: left;
+}
+
+.room-table tr {
+  border-bottom: 1px solid #ced4da;
+  height: 36px;
+}
+
+.room-table th p {
+  padding-right: 10px;
+  border-right: 1px solid #ced4da;
+  margin: 0;
+}
+
+.room-table th p:last-child {
+  margin-right: 10px;
+}
+
+.room-table th,
+.room-table td {
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.room-table th:nth-child(4) {
+  width: 300px;
+}
+
+.room-table th:nth-child(6) {
+  width: 100px;
+}
+
+.table-footer {
+  text-align: right;
+}
+
+.icon-left,
+.icon-right {
+  margin-right: 1rem;
+  font-size: 14px;
+  color: #adb5bd;
+}
+
+.icon-left {
+  margin-left: 1.5rem;
+}
+
+.btn {
+  color: #f03e3e;
+  background: none;
+  border: 1px dashed #f03e3e;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #f03e3e;
+  color: white;
+}

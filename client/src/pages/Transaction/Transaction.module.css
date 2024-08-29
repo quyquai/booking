@@ -1,0 +1,26 @@
+.transaction-container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table thead {
+  background-color: #32a4c1;
+  color: white;
+  text-align: left;
+}
+
+.transaction-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 0.5rem;
+  border: 1px solid #dddddd;
+}

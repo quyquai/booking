@@ -1,0 +1,15 @@
+.form label,
+.form input {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.form label {
+  font-size: 18px;
+}
+
+.form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,72 @@
+.select-room-container {
+  width: 100%;
+  max-width: 1024px;
+}
+
+.select-room-container h2 {
+  margin-bottom: 1rem;
+}
+
+.rooms-list {
+  gap: 3rem;
+}
+
+.rooms-list,
+.room-item {
+  display: flex;
+  align-items: center;
+}
+
+.room-item {
+  flex: 1;
+  gap: 0.5rem;
+}
+
+.room-details {
+  margin-right: 3rem;
+}
+
+.room-title,
+.room-payment-deadline,
+.room-max-people,
+.room-price {
+  margin: 0;
+  margin-bottom: 0.25rem;
+}
+
+.room-title,
+.room-payment-deadline,
+.room-price {
+  font-size: 18px;
+}
+
+.room-title,
+.room-price {
+  font-weight: 600;
+}
+
+.room-number {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.payment-method-select {
+  width: 15rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-right: 3rem;
+  background-color: #efefef;
+  border: 1px solid #adb5bd;
+  font-size: 16px;
+}
+
+.reserve-button {
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}

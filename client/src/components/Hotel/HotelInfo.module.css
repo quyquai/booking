@@ -1,0 +1,20 @@
+.title {
+  font-size: 24px;
+}
+
+.address {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.distance {
+  color: #0071c2;
+  font-weight: 500;
+}
+
+.price {
+  color: #008009;
+  font-weight: 500;
+}

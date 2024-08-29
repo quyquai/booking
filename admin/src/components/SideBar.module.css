@@ -1,0 +1,52 @@
+.sidebar-wrapper {
+  height: 100vh;
+  padding: 1rem;
+  border-right: 1px solid #dee2e6;
+}
+
+.sidebar-wrapper p {
+  font-weight: bold;
+  font-size: 12px;
+  color: #868e96;
+}
+
+.sidebar-wrapper span {
+  color: #868e96;
+}
+
+.sidebar-wrapper ul {
+  list-style-type: none;
+  padding: 0;
+  padding-left: 0.5rem;
+}
+
+.sidebar-wrapper li {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.sidebar-wrapper li:hover {
+  background-color: #e0e0e0;
+}
+
+.sidebar-wrapper a {
+  text-decoration: none;
+  color: #868e96;
+}
+
+.icon {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #6741d9;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-item:hover {
+  color: #1976d2; /* Màu xanh lá cây khi hover */
+}

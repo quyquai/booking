@@ -1,0 +1,23 @@
+main {
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+.container-admin {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.container-admin,
+.container-home {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.container-admin h3 {
+  border-right: 1px solid #dee2e6;
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+  color: #6741d9;
+}
